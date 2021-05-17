@@ -1,6 +1,6 @@
 [package]
 name = "prettydiff"
-version = "0.4.0"
+version = "0.5.0"
 authors = ["Roman Koblov <penpen938@me.com>"]
 edition = "2018"
 description = "Side-by-side diff for two files"
@@ -13,6 +13,6 @@ homepage = "https://github.com/romankoblov/prettydiff"
 
 [dependencies]
 prettytable-rs = "0.8.0"
-ansi_term = "0.9"
-structopt = "0.2"
+ansi_term = "0.11.0"
+structopt = { version = "0.3", default-features = false }
 
